@@ -15,4 +15,4 @@ where ```PATH``` is the path to the input image.
 ### Example:
 ![Original input and its reconstruction using an autoencoder fine-tuned on ResNet 50](./lenas.png)
 
-#### For more info, please check out [the paper's website](https://spalaciob.github.io/normnet.html).
+#### For more info, please check out [the paper's website](https://spalaciob.github.io/s2snets.html).
