@@ -16,3 +16,7 @@ where ```PATH``` is the path to the input image.
 ![Original input and its reconstruction using an autoencoder fine-tuned on ResNet 50](./lenas.png)
 
 #### For more info, please check out [the paper's website](https://spalaciob.github.io/s2snets.html).
+
+### UPDATES:
+#### 02.11.2020
+ - Weights for the original SegNet (pre-trained on YFCC100m) are now [available here](https://cloud.dfki.de/owncloud/index.php/s/ccSAQnxjZS384p6) and can be used by `plot_ae_reconstruction.py`. Make sure the path is correctly loaded by modifying the global variable [`RESNET_PATH`](https://github.com/spalaciob/s2snets-reconstruction/blob/master/plot_ae_reconstruction.py#L24).
